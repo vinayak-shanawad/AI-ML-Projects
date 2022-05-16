@@ -19,4 +19,5 @@ We covered the steps below in this project.
 - Update a SageMaker model endpoint
 - Cleanup
 
-Please refer to the [Medium article](https://medium.com/@vinayaks117/aws-sagemaker-train-deploy-and-update-a-huggingface-bert-model-cac277196fe0)
+Please refer to the [Medium article](https://medium.com/@vinayaks117/aws-sagemaker-train-deploy-and-update-a-huggingface-bert-model-cac277196fe0) for detailed information.
+ 
