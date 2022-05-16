@@ -7,7 +7,7 @@ Text classification is a technique for putting text into different categories an
 
 Twitter has become an important communication channel in times of emergency. [Kaggle competition dataset](https://www.kaggle.com/c/nlp-getting-started/overview), which consists of fake and real Tweets about disasters. The task is to classify the tweets.
 
-We covered below steps in this project.
+We covered the steps below in this project.
 - Setup
 - Data Preparation
 - EDA
@@ -18,3 +18,5 @@ We covered below steps in this project.
 - Train on Amazon SageMaker using on-demand instances with Epoch=3
 - Update a SageMaker model endpoint
 - Cleanup
+
+Please refer to the [Medium article](https://medium.com/@vinayaks117/aws-sagemaker-train-deploy-and-update-a-huggingface-bert-model-cac277196fe0)
