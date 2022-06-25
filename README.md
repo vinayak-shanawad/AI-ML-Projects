@@ -20,4 +20,21 @@ We covered the steps below in this project.
 - Cleanup
 
 Please refer to the [Medium article](https://medium.com/@vinayaks117/aws-sagemaker-train-deploy-and-update-a-huggingface-bert-model-cac277196fe0) for detailed information.
+
+### 2. Multi-Model Endpoints with Hugging Face Transformers and Amazon SageMaker
+
+With Amazon SageMaker multi-model endpoints, customers can create an endpoint that seamlessly hosts up to thousands of models. These endpoints are well suited to use cases where any one of many models, which can be served from a common inference container, needs to be callable on-demand and where it is acceptable for infrequently invoked models to incur some additional latency.
+
+We covered the steps below in this project.
+- Development Environment and Permissions
+- Retrieve Model Artifacts
+- Write the Inference Script
+- Package Models
+- Upload multiple Hugging Face models to S3
+- Create Multi-Model Endpoint
+- Get Predictions
+- Dynamically deploying models and Updating a model to the endpoint
+- Delete the Multi-Model Endpoint
+
+Please refer to the [Medium article](https://medium.com/@vinayaks117/multi-model-endpoints-with-hugging-face-transformers-and-amazon-sagemaker-cfa98e27d214) for detailed information.
  
