@@ -19,7 +19,7 @@ We covered the steps below in this project.
 - Update a SageMaker model endpoint
 - Cleanup
 
-Please refer to the [Medium article](https://medium.com/@vinayaks117/aws-sagemaker-train-deploy-and-update-a-huggingface-bert-model-cac277196fe0) for detailed information.
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/aws-sagemaker-train-deploy-and-update-a-hugging-face-bert-model-eeefc8211368) for detailed information.
 
 ### 2. Multi-Model Endpoints with Hugging Face Transformers and Amazon SageMaker
 
@@ -36,5 +36,5 @@ We covered the steps below in this project.
 - Dynamically deploying models and Updating a model to the endpoint
 - Delete the Multi-Model Endpoint
 
-Please refer to the [Medium article](https://medium.com/@vinayaks117/multi-model-endpoints-with-hugging-face-transformers-and-amazon-sagemaker-cfa98e27d214) for detailed information.
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/multi-model-endpoints-with-hugging-face-transformers-and-amazon-sagemaker-c0e5a3693fac) for detailed information.
  
