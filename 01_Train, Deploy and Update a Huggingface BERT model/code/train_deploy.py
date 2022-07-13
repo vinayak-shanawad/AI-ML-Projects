@@ -212,11 +212,7 @@ def test(model, test_loader, device):
 
 def model_fn(model_dir):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print("================ objects in model_dir ===================")
-    print(os.listdir(model_dir))
     model_path = os.path.join(model_dir, 'model/')
-    print("model_path:", model_path)
-    print(os.listdir(model_path))
     model = BertForSequenceClassification.from_pretrained(model_path)
     print("================ model loaded ===========================")
     return model.to(device)

@@ -21,7 +21,24 @@ We covered the steps below in this project.
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/aws-sagemaker-train-deploy-and-update-a-hugging-face-bert-model-eeefc8211368) for detailed information.
 
-### 2. Multi-Model Endpoints with Hugging Face Transformers and Amazon SageMaker
+### 2. Bring Your Own Model With Amazon SageMaker Script Mode
+
+[Script mode](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-script-mode/index.html) allows you to write custom training and inference script against commonly used ML framework containers maintained by AWS. Script mode is easy to use and extremely flexible.
+
+We covered the steps below in this project.
+- Development Environment and Permissions
+- Store Model Artifacts
+- Write the Inference Script
+- Package Model
+- Upload Hugging Face model to S3
+- Create SageMaker Real-time endpoint
+- Get Predictions
+- Update SageMaker Real-time endpoint
+- Delete the Real-time endpoint
+
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/bring-your-own-model-with-amazon-sagemaker-script-mode-6cf374747f9e) for detailed information.
+
+### 3. Multi-Model Endpoints with Hugging Face Transformers and Amazon SageMaker
 
 With Amazon SageMaker multi-model endpoints, customers can create an endpoint that seamlessly hosts up to thousands of models. These endpoints are well suited to use cases where any one of many models, which can be served from a common inference container, needs to be callable on-demand and where it is acceptable for infrequently invoked models to incur some additional latency.
 
