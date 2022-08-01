@@ -21,7 +21,7 @@ We covered the steps below in this project.
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/aws-sagemaker-train-deploy-and-update-a-hugging-face-bert-model-eeefc8211368) for detailed information.
 
-### 2. Bring Your Own Model With Amazon SageMaker Script Mode
+### 2. Bring Your BERT Model With Amazon SageMaker Script Mode
 
 [Script mode](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-script-mode/index.html) allows you to write custom training and inference script against commonly used ML framework containers maintained by AWS. Script mode is easy to use and extremely flexible.
 
@@ -54,4 +54,16 @@ We covered the steps below in this project.
 - Delete the Multi-Model Endpoint
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/multi-model-endpoints-with-hugging-face-transformers-and-amazon-sagemaker-c0e5a3693fac) for detailed information.
+
+### 4. Pay as you use SageMaker Serverless inference with GPT-2
+
+SageMaker (SM) Serverless inference option allows you to focus on the model building process without having to manage the underlying infrastructure. You can choose either a SM in-built container or bring your own.
+
+We covered the steps below in this project.
+- SageMaker Serverless inference Use cases
+- Warming up the Cold Starts
+- Serverless Inference example
+- Monitor Serverless GPT-2 model endpoint
+
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/pay-as-you-use-sagemaker-serverless-inference-with-gpt-2-62b23485f828) for detailed information.
  
