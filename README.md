@@ -67,3 +67,17 @@ We covered the steps below in this project.
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/pay-as-you-use-sagemaker-serverless-inference-with-gpt-2-62b23485f828) for detailed information.
  
+### 5. AWS SageMaker Experiments with Weights and Biases
+
+Amazon SageMaker experiments to organize, track, compare and evaluate our machine learning experiments on IMDB movie reviews dataset then deploy the endpoint for best training job or trial component.
+
+We covered the steps below in this project.
+- Set up the experiment
+- Track experiment
+- Accessing Training Metrics using Experiments UI from SageMaker Studio
+- Accessing Training Metrics using SageMaker TrainingJobAnalytics API
+- Accessing Training Metrics using Weights and Biases
+- Compare the model training runs for an experiment
+- Deploy endpoint for the best training-job or trial component
+
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/aws-sagemaker-experiments-with-weights-and-biases-f28e391b26ea) for detailed information.

@@ -1,0 +1,7 @@
+datasets
+wandb
+tqdm
+requests==2.22.0
+transformers==4.17.0
+scikit-learn==0.23.2
+nvgpu
