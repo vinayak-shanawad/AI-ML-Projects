@@ -11,8 +11,8 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 import torch
 from transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments, AutoTokenizer
 import wandb
-wandb.login(key="2280ab8fa0ff52840b0a234acbea3dc3133c8782")
-wandb.init(project='huggingface')
+wandb.login(key="WANDB_API_KEY") # Pass your W&B API key here
+wandb.init(project="Prodject_Name") # Add your W&B project name 
     
 # compute metrics function for binary classification
 def compute_metrics(pred):
