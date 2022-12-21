@@ -80,4 +80,4 @@ We covered the steps below in this project.
 - Compare the model training runs for an experiment
 - Deploy endpoint for the best training-job or trial component
 
-Please refer to the [Medium article](https://medium.com/@vinayakshanawad/aws-sagemaker-experiments-with-weights-and-biases-f28e391b26ea) for detailed information.
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/aws-sagemaker-experiments-with-weights-and-biases-ea0932658a4f) for detailed information.
