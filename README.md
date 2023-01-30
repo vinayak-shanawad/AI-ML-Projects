@@ -81,3 +81,19 @@ We covered the steps below in this project.
 - Deploy endpoint for the best training-job or trial component
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/aws-sagemaker-experiments-with-weights-and-biases-ea0932658a4f) for detailed information.
+
+### 6. Shadow deployment of ML models with Amazon SageMaker
+
+AWS has announced the shadow model deployment strategy support in Amazon SageMaker in `AWS re:Invent 2022`. Shadow testing helps us to minimize the risk of deploying a low performing model, minimize the downtime and monitor the model performance of the new model version for a period of time and can rollback if there is an issue with the new version.
+
+We covered the steps below in this project.
+- Deploy tweet-classifier-v1 model (as production variant
+- Get predictions from tweet-classifier-v1 model
+- Deploy tweet-classifier-v2 model (as shadow variant)
+- Get predictions from tweet-classifier-v2 model
+- View production variant captured data from S3
+- View shadow variant captured data from S3
+- Compare the model evaluation metrics
+- Promote the shadow variant as a production variant
+
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/shadow-deployment-of-ml-models-with-amazon-sagemaker-65e6816821ae) for detailed information.
