@@ -8,7 +8,7 @@ set -eux
 #  VARIABLES  #
 ###############
 
-CODE_SERVER_VERSION="v4.10.0-rc.0"
+CODE_SERVER_VERSION="4.9.1"
 CODE_SERVER_INSTALL_LOC="/opt/.cs"
 XDG_DATA_HOME="/opt/.xdg/data"
 XDG_CONFIG_HOME="/opt/.xdg/config"
@@ -134,6 +134,9 @@ then
 	pip install tensorboard
 	pip install markupsafe
 	pip install importlib_metadata
+	
+	# Configure TensorBoard to run automatically
+	echo "tensorboard --logdir=\$SM_MODEL_DIR --host=0.0.0.0 --port=6006 &" >> ~/.bashrc
 	
 	conda deactivate
 
