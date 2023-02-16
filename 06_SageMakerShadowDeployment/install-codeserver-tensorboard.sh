@@ -8,7 +8,7 @@ set -eux
 #  VARIABLES  #
 ###############
 
-CODE_SERVER_VERSION="4.10.0-rc.2"
+CODE_SERVER_VERSION="4.10.0"
 CODE_SERVER_INSTALL_LOC="/opt/.cs"
 XDG_DATA_HOME="/opt/.xdg/data"
 XDG_CONFIG_HOME="/opt/.xdg/config"
