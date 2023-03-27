@@ -97,3 +97,16 @@ We covered the steps below in this project.
 - Promote the shadow variant as a production variant
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/shadow-deployment-of-ml-models-with-amazon-sagemaker-65e6816821ae) for detailed information.
+
+### 7. ML Inference Data Pipeline using SageMaker and Airflow
+
+Accelerate and automate ML inference data pipeline using SageMaker and Airflow.
+
+We covered the steps below in this project.
+- Real-world batch inference use cases
+- Create tweet-classifier-v1 model
+- Build a Tweets inference data pipeline
+- Monitor Airflow DAG and it's workflow execution
+
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/accelerate-ml-inference-data-pipeline-using-sagemaker-and-apache-airflow-f19207e896ca) for detailed information.
+
