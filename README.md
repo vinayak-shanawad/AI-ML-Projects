@@ -110,3 +110,14 @@ We covered the steps below in this project.
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/accelerate-ml-inference-data-pipeline-using-sagemaker-and-apache-airflow-f19207e896ca) for detailed information.
 
+### 7. Monitoring and Saving SageMaker Inference Expenses
+
+Tips and Tools for Effective Monitoring and Savings.
+
+We covered the steps below in this post.
+- Retrieve endpoint and its instance details
+- Compute endpoint age in days
+- Comput endpoint total invocations and invocations count in last 15 days
+- Compute instance cost details in dollors
+
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/monitoring-and-saving-sagemaker-inference-expenses-f6795a9193ab) for detailed information.
