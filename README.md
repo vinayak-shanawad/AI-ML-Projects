@@ -110,7 +110,7 @@ We covered the steps below in this project.
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/accelerate-ml-inference-data-pipeline-using-sagemaker-and-apache-airflow-f19207e896ca) for detailed information.
 
-### 7. Monitoring and Saving SageMaker Inference Expenses
+### 8. Monitoring and Saving SageMaker Inference Expenses
 
 Tips and Tools for Effective Monitoring and Savings.
 
