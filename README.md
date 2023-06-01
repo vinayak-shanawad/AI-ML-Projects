@@ -121,3 +121,17 @@ We covered the steps below in this post.
 - Compute instance cost details in dollors
 
 Please refer to the [Medium article](https://medium.com/@vinayakshanawad/monitoring-and-saving-sagemaker-inference-expenses-f6795a9193ab) for detailed information.
+
+### 9. Supercharge BERT Inference with AWS Inferentia2 and Hugging Face Transformers
+
+Achieve 2–3ms inference speed and high throughput for Text Classification tasks
+
+We covered the steps below in this post.
+- Convert your Hugging Face Transformer to AWS Neuron (Inferentia2)
+- Create a custom inference.py script for text-classification
+- Create and upload the neuron model and inference script to Amazon S3
+- Deploy a Real-time Inference Endpoint on Amazon SageMaker
+- Run and evaluate Inference performance of BERT on Inferentia2
+- Clean Up
+
+Please refer to the [Medium article](https://medium.com/@vinayakshanawad/say-goodbye-to-costly-bert-inference-turbocharge-with-aws-inferentia2-and-hugging-face-c30a21df6b4e) for detailed information.
