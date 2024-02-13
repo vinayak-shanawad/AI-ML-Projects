@@ -1,0 +1,17 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: "kserve-custom-model"
+spec:
+  predictor:
+    containers:
+    - image: vinayaks117/kserve-model-repo:v1.0
+      resources:
+        requests:
+          memory: "4096Mi"
+          cpu: "250m"
+        limits:
+          memory: "4096Mi"
+          cpu: "500m"

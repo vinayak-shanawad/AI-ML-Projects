@@ -1,0 +1,7 @@
+{
+    "name": "text-uniqueness-model",
+    "implementation": "inference.TextUniqueness",
+    "parameters": {
+        "uri": "./model"
+    }
+}

@@ -1,0 +1,9 @@
+apiVersion: mlops.seldon.io/v1alpha1
+kind: Model
+metadata:
+  name: text-uniqueness-model
+spec:
+  secretName: seldon-rclone-secret
+  storageUri: "gs://seldon-models/text-uniqueness/"
+  requirements:
+  - text-uniqueness

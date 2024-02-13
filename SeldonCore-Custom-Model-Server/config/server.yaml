@@ -1,0 +1,13 @@
+apiVersion: mlops.seldon.io/v1alpha1
+kind: Server
+metadata:
+  name: mlserver-text-uniqueness
+  namespace: seldon-mesh
+spec:
+  serverConfig: mlserver
+  capabilities:
+  - text-uniqueness
+  podSpec:
+    containers:
+    - image: vinayaks117/text-uniqueness
+      name: mlserver
